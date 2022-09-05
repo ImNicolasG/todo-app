@@ -2,6 +2,8 @@
 
 var list = document.querySelector("ul");
 var listItems = document.querySelectorAll("li");
+
+// each list item that is created gets a number so that we can remove each specific item
 var itemNum = 3
 
 
@@ -12,6 +14,7 @@ function newElement() {
 
     // variable that creates a new "li" element
     //'.setAttribute' gives each element a class and assigns it a number so that we can remove it
+    // aswell as creating a function to execute on click
     var node = document.createElement("li");
     node.setAttribute("id", itemNum);
     node.setAttribute("onclick", "removeMe(this.id)")
@@ -38,6 +41,8 @@ function newElement() {
 };
 
 
+
+// Removes each item on click by their id #
 function removeMe (id) {
     document.getElementById(id).remove();
 };
