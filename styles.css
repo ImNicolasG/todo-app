@@ -9,7 +9,6 @@ h2 {
 
 #myInput {
     padding: 10px;
-    width: 50%;
     float: left;
     font-size: 16px;
     margin: 0;
@@ -39,12 +38,12 @@ h2 {
     height: 75px
 }
 
-.mainForm
+
 
 .addBtn {
     text-align: center;
     padding: 10px;
-    width: 25%;
+    /* width: 25%; */
     background-color: darkgray ;
     font-size: 16px;
     transition: 0.3s;
