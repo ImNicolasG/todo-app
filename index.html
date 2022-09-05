@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="mainContainer">
+        <h2 class="listHeader">My To-Do List</h2>
+        <div class="createItem">
+            <form id="mainForm" name="itemInput">
+                <input type="text" id="myInput" name="itemDesc" placeholder="What Do You Need To Do?">
+                <span onclick="newElement()" class="addBtn">Add</span>
+            </form>
+        </div>
+
+        <div class="listItems">
+            <ul>
+                <li>Brush Teeth</li>
+                <li>Clap Cheeks</li>
+                <li>Skeet Skeet</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>

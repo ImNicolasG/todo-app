@@ -1,0 +1,82 @@
+body {
+    background-color: azure;
+}
+
+h2 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#myInput {
+    padding: 10px;
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    margin: 0;
+    border: none;
+    border-radius: 0;
+}
+
+
+
+.mainContainer {
+    margin: 100px auto;
+    display: flexbox;
+    border-radius: 5%;
+    background-color: rgb(255, 0, 0);
+    width: 900px;
+    height: 500px;
+}
+
+.createItem {
+    display: flex;
+    /* verticle */
+    align-items: center;
+    /* horizontal */
+    justify-content: center;
+    background-color:aqua;
+    width: 900px;
+    height: 75px
+}
+
+.mainForm
+
+.addBtn {
+    text-align: center;
+    padding: 10px;
+    width: 25%;
+    background-color: darkgray ;
+    font-size: 16px;
+    transition: 0.3s;
+    float: left;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background-color: gray;
+}
+
+
+
+.listItems {
+    display: flex;
+    /* verticle */
+    align-items: center;
+    /* horizontal */
+    justify-content: center;
+    background-color: blue;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    position: relative;
+    cursor: pointer;
+    padding: 12px 8px 12px 40px;
+    background-color: cornflowerblue;
+    font-size: 18px;
+}
