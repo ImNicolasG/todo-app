@@ -1,12 +1,44 @@
-body {
-    background-color: azure;
+html {
+    background-image: linear-gradient(#72ffff7e, #5900ff7e);
+    height: 100%;
 }
 
 h2 {
-    padding-top: 15px;
+    color: white;
+    text-shadow: 2px 2px gray;
+    font-size: 3rem;
+    padding: 15px 0px;
     text-align: center;
+    margin: 0;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    cursor: pointer;
+    border: 10px;
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    font-size: 18px;
+}
+
+
+.mainContainer {
+    margin: 100px auto;
+    display: flexbox;
+    border-radius: 5%;
+    background-color: #5800FF;
+    width: 900px;
+    height: 500px;
+}
+
+
+
+/* This is the text box */
 #myInput {
     padding: 10px;
     float: left;
@@ -17,23 +49,14 @@ h2 {
 }
 
 
-
-.mainContainer {
-    margin: 100px auto;
-    display: flexbox;
-    border-radius: 5%;
-    background-color: rgb(255, 0, 0);
-    width: 900px;
-    height: 500px;
-}
-
+/* The entire form including the button */
 .createItem {
     display: flex;
     /* verticle */
     align-items: center;
     /* horizontal */
     justify-content: center;
-    background-color:aqua;
+    background-color: #00D7FF;
     width: 900px;
     height: 75px
 }
@@ -55,27 +78,7 @@ h2 {
     background-color: gray;
 }
 
-
-
-.listItems {
-    display: flex;
-    /* verticle */
-    align-items: center;
-    /* horizontal */
-    justify-content: center;
-    background-color: blue;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-ul li {
-    position: relative;
-    cursor: pointer;
-    padding: 12px 8px 12px 40px;
-    background-color: cornflowerblue;
-    font-size: 18px;
+footer {
+    padding-top: 50px;
+    text-align: center;
 }
